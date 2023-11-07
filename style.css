@@ -1,0 +1,55 @@
+.categories {
+  gap: 20px;
+}
+
+.btn {
+  border-radius: 15px;
+  font-size: 14px;
+}
+.btn-light {
+  background-color: #0000000d;
+}
+
+.selected-btn,
+.btn-primary {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn-light:hover,
+.btn-primary:hover {
+  background-color: rgb(63, 63, 63);
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.search {
+  width: 50%;
+}
+
+.search {
+  border-radius: 15px;
+}
+.signUp {
+  width: 70%;
+}
+
+.plc::placeholder {
+  font-size: 13px;
+  color: rgb(207, 207, 207);
+}
+
+.bckgrnd {
+  background-color: #0000000d;
+  border-radius: 15px;
+  padding: 20px 15px;
+}
+
+iframe {
+  border-radius: 15px;
+}
